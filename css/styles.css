@@ -177,7 +177,16 @@ body {
 .benefits-item {
   width: calc((100% - 3 * 24px) / 4);
 }
-
+/*.benefits-picture {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.benefits-icon { }
+}*/
 .benefits-subject {
   font-weight: 500;
   font-size: 20px;
@@ -240,6 +249,28 @@ body {
   color: #434455;
   text-align: center;
 }
+.social-list {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+}
+.social-list-link {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.social-list-link:hover {
+  background-color: #404bbf;
+}
+.social-icon {
+  fill: none;
+  stroke: #f4f4fd;
+}
+
 /*================ /EMPLOYEE SECTION =================*/
 /*================ PORTFOLIO SECTION ==================*/
 .portfolio,
